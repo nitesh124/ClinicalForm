@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-let Todo = new Schema({
+let Variable = new Schema({
     variable_variableName: {
         type: String
     },
