@@ -190,7 +190,7 @@ reset(e) {
                    handleChange={this.textBox}
                    placeholder={'Units'} />{/* Units */}
 
-          <Input   inputType={'number'} 
+          <Input   inputType={'text'} 
                    name={'formName'}
                    title= {'Form Name'} 
                    value={this.state.variables.formName} 
